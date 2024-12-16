@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pic_controller">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="401.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Pane onMouseClicked="#clickOnBack" prefHeight="400.0" prefWidth="200.0" />
+            <Pane layoutX="400.0" onMouseClicked="#clickOnNext" prefHeight="400.0" prefWidth="200.0" />
+            <Pane layoutY="297.0" prefHeight="97.0" prefWidth="600.0" styleClass="pane" stylesheets="@../css/pane.css">
+               <children>
+                  <Button layoutX="272.5" layoutY="26.0" mnemonicParsing="false" onAction="#clickOnCamera" prefHeight="50.0" prefWidth="55.0" stylesheets="@../css/library.css">
+                     <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="41.0">
+                           <image>
+                              <Image url="@../../lib/icons8-camera-50%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="167.5" layoutY="26.0" mnemonicParsing="false" onAction="#clickOnChoose" prefHeight="50.0" prefWidth="55.0" stylesheets="@../css/library.css">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="41.0">
+                           <image>
+                              <Image url="@../../lib/icons8-choose-50.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="377.5" layoutY="26.0" mnemonicParsing="false" onAction="#deleteImg" prefHeight="50.0" prefWidth="55.0" stylesheets="@../css/library.css">
+                     <graphic>
+                        <ImageView fitHeight="36.0" fitWidth="36.0">
+                           <image>
+                              <Image url="@../../lib/icons8-bin-50.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</StackPane>

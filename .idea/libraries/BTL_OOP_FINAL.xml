@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="BTL_OOP_FINAL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BTL_OOP_FINAL.jar!/" />
+      <root url="jar://$PROJECT_DIR$/opencv-490.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

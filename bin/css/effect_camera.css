@@ -1,0 +1,12 @@
+.choice-box{
+  -fx-border-width: 3px;
+  -fx-border-color: white;
+  -fx-border-radius: 30%;
+  -fx-background-color: transparent;
+}
+
+.choice-box:hover{
+  -fx-border-width: 4px;
+  -fx-border-radius: 30%;
+  -fx-border-color: gray;
+}

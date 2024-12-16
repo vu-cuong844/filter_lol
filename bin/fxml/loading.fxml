@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller_loading">
+   <children>
+      <ProgressBar fx:id="progressBar" layoutX="40.0" layoutY="349.0" maxHeight="11.0" prefHeight="11.0" prefWidth="544.0" progress="0.0" stylesheets="@../css/loading.css" />
+      <Label layoutX="250.0" layoutY="359.0" prefHeight="32.0" prefWidth="99.0" text="Loading..." textFill="#5285a4">
+         <font>
+            <Font name="Viner Hand ITC" size="16.0" />
+         </font></Label>
+      <ImageView fitHeight="231.0" fitWidth="237.0" layoutX="185.0" layoutY="62.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" rotate="-15.6">
+         <image>
+            <Image url="@../../lib/image.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

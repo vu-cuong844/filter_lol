@@ -1,0 +1,15 @@
+.progress-bar {
+    -fx-background-color: rgba(52, 72, 222, 0.81);
+    -fx-background-radius: 30px;
+    -fx-min-width: 520px;
+    -fx-max-width: 520px;
+    -fx-pref-width: 130px;
+    -fx-min-height: 10px;
+    -fx-max-height: 10px;
+    -fx-pref-height: 7px;
+    -fx-padding: 0;
+    -fx-alignment: center-left;
+    -fx-border-radius: 30px;
+    -fx-position: center;
+}
+

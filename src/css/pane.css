@@ -1,0 +1,6 @@
+.pane{
+    -fx-opacity: 0;
+}
+.pane:hover{
+    -fx-opacity: 1;
+}
